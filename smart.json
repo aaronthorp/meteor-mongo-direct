@@ -1,0 +1,9 @@
+{
+  "name": "mongo-direct",
+  "description": "Meteor MongoDB Direct Collection Extension",
+  "homepage": "https://github.com/aaronthorp/meteor-mongo-direct",
+  "author": "Aaron Thorp (http://www.aaronthorp.com)",
+  "version": "0.1.0",
+  "git": "https://github.com/aaronthorp/meteor-mongo-direct.git",
+  "packages": {}
+}
