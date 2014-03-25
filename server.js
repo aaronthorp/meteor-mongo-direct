@@ -17,8 +17,8 @@ var MongoDirect = {
   directExists: function(selector) {
     return checkRecordExists(this._name, selector);
   },
-  directRemove: function(selector) {
-    return doDeleteRecord(this._name, selector);
+  directRemove: function(selector, options) {
+    return doDeleteRecord(this._name, selector, options);
   }
   
 };
