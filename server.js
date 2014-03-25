@@ -75,12 +75,12 @@ checkRecordExists = function(file, criteria) {
 
   MongoInternals.defaultRemoteCollectionDriver().mongo.db.collection(file).findOne(criteria, function(err,res) {
     if (err)
-      fut.return(null)
+      fut.return(false)
     else
       if (res)
-        fut.return({_id: res._id});
+        fut.return(true);
       else
-        fut.return(null); 
+        fut.return(false); 
   });
           
   return fut.wait();
@@ -138,9 +138,9 @@ doDeleteRecord = function(file, criteria, options) {
 
   MongoInternals.defaultRemoteCollectionDriver().mongo.db.collection(file).remove(criteria, options, function(err, res) {
     if (err)
-      fut.return(null)
+      fut.return(false)
     else
-      fut.return(res === 1);
+      fut.return(res);
 
   });
           

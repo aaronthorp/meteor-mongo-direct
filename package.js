@@ -4,11 +4,8 @@ Package.describe({
 
 Package.on_use(function (api, where) {
     api.use([
-        'standard-app-packages',
-        'coffeescript',
-        'underscore'
+      'underscore'
     ]);
 
-    api.add_files('client.js', 'client');
     api.add_files('server.js', 'server');
 });
