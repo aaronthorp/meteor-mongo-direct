@@ -1,6 +1,6 @@
 # MongoDB Direct Access Functions
 
-Current Version: `0.1.0` (2014/03/25)
+**Current Version:** `0.1.0 (2014/03/25)`
 
 Extends `Meteor.Collection` with direct access calls to the MongoDB driver.
 
@@ -22,7 +22,7 @@ component of the clients with the results.
 
 ## Installation
 
-`mrt add mongo-direct`
+To install the package simply type `mrt add mongo-direct` in the project directory.
 
 --------------------------------------------------------------------------------
 
