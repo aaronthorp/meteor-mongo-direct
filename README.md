@@ -56,7 +56,7 @@ if (Meteor.isServer) {
 }
 ```
 
-Should generate results similar to:
+Should generate results on the server console similar to the following:
 
 ```
 Add: 4e11ddf0f432ff024b7b2d0a
