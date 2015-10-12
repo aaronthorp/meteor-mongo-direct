@@ -1,3 +1,5 @@
+[![Meteor Icon](http://icon.meteor.com/package/thinksoftware:mongo-direct)](https://atmospherejs.com/thinksoftware/mongo-direct)
+
 # MongoDB Direct Access Functions
 
 **Current Version:** `0.1.0 (2014/03/25)`
